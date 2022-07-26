@@ -66,3 +66,10 @@ touch src/scss/main.scss
 
 npm run dev #this runs the server on localhost 3000, this shoudl also populate main.css
 
+mkdir assets
+mkdir assets/images
+mkdir assets/fonts
+
+copy and paste 
+/node_modules/govuk-frontend/govuk/assets/images folder to <YOUR-APP>/assets/images
+/node_modules/govuk-frontend/govuk/assets/fonts folder to <YOUR-APP>/assets/fonts
