@@ -3,6 +3,7 @@ make new project directory
 npm init -yes
 npm i express sass
 npm i nodemon --save-dev
+npm i govuk-frontend --save
 
 within package.json edit "main" & "scripts" to include
   "main": "index.js" ---> to "src/index.js"
@@ -59,7 +60,7 @@ mkdir src/scss
 touch src/scss/main.scss
     within main.scss add
     ###
-    @import "node_modules/govuk-frontend/govuk/all";
+    @import "../../node_modules/govuk-frontend/govuk/all";
     ###
 
 
